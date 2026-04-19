@@ -10,10 +10,11 @@ permissions:
 jobs:
   update-list:
     runs-on: ubuntu-latest
+    env: # Thêm dòng này để hết cảnh báo vàng
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Process IP and Domains
         run: |
           # 1. Lấy IP từ APNIC
