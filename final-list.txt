@@ -1634,6 +1634,7 @@
 223.27.104.0/21
 223.130.10.0/23
 
+speedtest.net
 dichvucong.gov.vn
 baohiemxahoi.gov.vn
 thuedientu.gdt.gov.vn
